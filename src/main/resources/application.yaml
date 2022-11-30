@@ -1,0 +1,11 @@
+server:
+  port: 7077
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:29092
+  cloud:
+      kafka:
+        binder:
+          brokers: localhost:29092
+
